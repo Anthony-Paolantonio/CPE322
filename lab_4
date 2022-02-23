@@ -1,0 +1,309 @@
+Last login: Tue Feb 22 16:40:14 on ttys000
+anthonypaolantonio@Anthonys-MBP-4 ~ % pip3 -V
+pip 21.3.1 from /usr/local/lib/python3.9/site-packages/pip (python 3.9)
+anthonypaolantonio@Anthonys-MBP-4 ~ % pip3 list
+Package               Version
+--------------------- -------
+astral                2.2
+geographiclib         1.52
+geopy                 2.2.0
+jdcal                 1.4.1
+numpy                 1.22.2
+pip                   21.3.1
+protobuf              3.19.4
+PyQt3D                5.15.5
+PyQt5                 5.15.6
+PyQt5-sip             12.9.0
+PyQtChart             5.15.5
+PyQtDataVisualization 5.15.5
+PyQtNetworkAuth       5.15.5
+PyQtPurchasing        5.15.5
+PyQtWebEngine         5.15.5
+pytz                  2021.3
+setuptools            60.5.0
+six                   1.16.0
+TBB                   0.2
+wheel                 0.37.1
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U setuptools
+Password:
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (60.5.0)
+Collecting setuptools
+  Downloading setuptools-60.9.3-py3-none-any.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 10.2 MB/s            
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 60.5.0
+    Uninstalling setuptools-60.5.0:
+      Successfully uninstalled setuptools-60.5.0
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed setuptools-60.9.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U django
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Collecting django
+  Downloading Django-4.0.2-py3-none-any.whl (8.0 MB)
+     |████████████████████████████████| 8.0 MB 8.4 MB/s            
+Collecting asgiref<4,>=3.4.1
+  Downloading asgiref-3.5.0-py3-none-any.whl (22 kB)
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB 18.0 MB/s            
+Installing collected packages: sqlparse, asgiref, django
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed asgiref-3.5.0 django-4.0.2 sqlparse-0.4.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U djangorestframework
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Collecting djangorestframework
+  Downloading djangorestframework-3.13.1-py3-none-any.whl (958 kB)
+     |████████████████████████████████| 958 kB 12.9 MB/s            
+Requirement already satisfied: django>=2.2 in /usr/local/lib/python3.9/site-packages (from djangorestframework) (4.0.2)
+Requirement already satisfied: pytz in /usr/local/lib/python3.9/site-packages (from djangorestframework) (2021.3)
+Requirement already satisfied: asgiref<4,>=3.4.1 in /usr/local/lib/python3.9/site-packages (from django>=2.2->djangorestframework) (3.5.0)
+Requirement already satisfied: sqlparse>=0.2.2 in /usr/local/lib/python3.9/site-packages (from django>=2.2->djangorestframework) (0.4.2)
+Installing collected packages: djangorestframework
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed djangorestframework-3.13.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U django-filter
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Collecting django-filter
+  Downloading django_filter-21.1-py3-none-any.whl (81 kB)
+     |████████████████████████████████| 81 kB 12.8 MB/s            
+Requirement already satisfied: Django>=2.2 in /usr/local/lib/python3.9/site-packages (from django-filter) (4.0.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /usr/local/lib/python3.9/site-packages (from Django>=2.2->django-filter) (0.4.2)
+Requirement already satisfied: asgiref<4,>=3.4.1 in /usr/local/lib/python3.9/site-packages (from Django>=2.2->django-filter) (3.5.0)
+Installing collected packages: django-filter
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed django-filter-21.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U markdown
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Collecting markdown
+  Downloading Markdown-3.3.6-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 8.5 MB/s             
+Collecting importlib-metadata>=4.4
+  Downloading importlib_metadata-4.11.1-py3-none-any.whl (17 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.7.0-py3-none-any.whl (5.3 kB)
+Installing collected packages: zipp, importlib-metadata, markdown
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed importlib-metadata-4.11.1 markdown-3.3.6 zipp-3.7.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U requests
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 9.6 MB/s             
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 35.0 MB/s            
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 34.7 MB/s            
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     |████████████████████████████████| 149 kB 56.4 MB/s            
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed certifi-2021.10.8 charset-normalizer-2.0.12 idna-3.3 requests-2.27.1 urllib3-1.26.8
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+WARNING: You are using pip version 21.3.1; however, version 22.0.3 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % cd iot
+anthonypaolantonio@Anthonys-MBP-4 iot % ls
+README.md		lesson4			lesson9
+lesson1			lesson5			projects
+lesson10		lesson6			special_problems
+lesson2			lesson7			standards
+lesson3			lesson8
+anthonypaolantonio@Anthonys-MBP-4 iot % cd lesson4
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % ls
+README.md		memory_game.py		templates.yaml
+blinkatest.py		mycpu			weather
+dht_simpletest.py	myraspi			wordpress.png
+hello_world.json	parking			wp-config.png
+hello_world.py		sensing			wp-home.png
+index.php		static			wp-login.png
+lighting		stevens			xidian
+memory_game.json	system_info.py
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % cd stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % ls
+README.md	index.html	models.py	stevens.png	views.py
+admin.py	index.txt	settings.txt	urls.py
+anthonypaolantonio@Anthonys-MBP-4 stevens % ./
+zsh: permission denied: ./
+anthonypaolantonio@Anthonys-MBP-4 stevens % make
+make: *** No targets specified and no makefile found.  Stop.
+anthonypaolantonio@Anthonys-MBP-4 stevens % cd ..
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % ls
+README.md		memory_game.py		templates.yaml
+blinkatest.py		mycpu			weather
+dht_simpletest.py	myraspi			wordpress.png
+hello_world.json	parking			wp-config.png
+hello_world.py		sensing			wp-home.png
+index.php		static			wp-login.png
+lighting		stevens			xidian
+memory_game.json	system_info.py
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % ./stevens
+zsh: permission denied: ./stevens
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % stevens
+zsh: command not found: stevens
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % python3 manage.py runserver
+/usr/local/bin/python3: can't open file '/Users/anthonypaolantonio/iot/lesson4/manage.py': [Errno 2] No such file or directory
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % cd stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py runserver
+/usr/local/bin/python3: can't open file '/Users/anthonypaolantonio/iot/lesson4/stevens/manage.py': [Errno 2] No such file or directory
+anthonypaolantonio@Anthonys-MBP-4 stevens % ls
+README.md	index.html	models.py	stevens.png	views.py
+admin.py	index.txt	settings.txt	urls.py
+anthonypaolantonio@Anthonys-MBP-4 stevens % cd ..                            
+anthonypaolantonio@Anthonys-MBP-4 lesson4 % cd ..
+anthonypaolantonio@Anthonys-MBP-4 iot % cd ..
+anthonypaolantonio@Anthonys-MBP-4 ~ % django-admin startproject stevens
+anthonypaolantonio@Anthonys-MBP-4 ~ % cd stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % ls
+manage.py	stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % pip3 manage.py startapp myapp
+ERROR: unknown command "manage.py"
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py startapp myapp
+anthonypaolantonio@Anthonys-MBP-4 stevens % ls
+manage.py	myapp		stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % cd stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % ls
+__init__.py	asgi.py		urls.py
+__pycache__	settings.py	wsgi.py
+anthonypaolantonio@Anthonys-MBP-4 stevens % nano settings.py
+anthonypaolantonio@Anthonys-MBP-4 stevens % cp ~/iot/lesson4/stevens/urls.py
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 stevens % cd ..
+anthonypaolantonio@Anthonys-MBP-4 stevens % cd myapp
+anthonypaolantonio@Anthonys-MBP-4 myapp % ls
+__init__.py	apps.py		models.py	views.py
+admin.py	migrations	tests.py
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/stevens/admin.py
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/stevens/models.py
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/stevens/views.py
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % mkdir static templates
+anthonypaolantonio@Anthonys-MBP-4 myapp % cd templates
+anthonypaolantonio@Anthonys-MBP-4 templates % mkdir myapp
+anthonypaolantonio@Anthonys-MBP-4 templates % cd myapp
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/stevens/index.html
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % nano index.html
+anthonypaolantonio@Anthonys-MBP-4 myapp % cd ~/stevens/myapp/static
+anthonypaolantonio@Anthonys-MBP-4 static % cp ~/iot/lesson4/static/favicon.ico
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 static % mkdir myapp
+anthonypaolantonio@Anthonys-MBP-4 static % cd myapp
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/static/*css
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % cp ~/iot/lesson4/static/*js
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+anthonypaolantonio@Anthonys-MBP-4 myapp % cd ~/stevens
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py makemigrations myapp
+No installed app with label 'myapp'.
+anthonypaolantonio@Anthonys-MBP-4 stevens % winpty python manage.py createsuperuser
+zsh: command not found: winpty
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py createsuperuser
+Username (leave blank to use 'anthonypaolantonio'): apaolant
+Email address: apaolant@stevens.edu
+Password: 
+Password (again): 
+Superuser created successfully.
+anthonypaolantonio@Anthonys-MBP-4 stevens % python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 23, 2022 - 01:43:25
+Django version 4.0.2, using settings 'stevens.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[23/Feb/2022 01:43:43] "GET /admin HTTP/1.1" 301 0
+[23/Feb/2022 01:43:43] "GET /admin/ HTTP/1.1" 302 0
+[23/Feb/2022 01:43:43] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[23/Feb/2022 01:43:43] "GET /static/admin/css/login.css HTTP/1.1" 200 954
+[23/Feb/2022 01:43:43] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+[23/Feb/2022 01:43:43] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+[23/Feb/2022 01:43:43] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+[23/Feb/2022 01:43:43] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[23/Feb/2022 01:43:43] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[23/Feb/2022 01:43:43] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[23/Feb/2022 01:43:43] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[23/Feb/2022 01:43:43] "GET /favicon.ico HTTP/1.1" 404 2111
+[23/Feb/2022 01:44:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[23/Feb/2022 01:44:02] "GET /admin/ HTTP/1.1" 200 3330
+[23/Feb/2022 01:44:02] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[23/Feb/2022 01:44:02] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[23/Feb/2022 01:44:02] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[23/Feb/2022 01:44:02] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[23/Feb/2022 01:47:07] "GET / HTTP/1.1" 200 10697
+[23/Feb/2022 01:47:07] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[23/Feb/2022 01:47:07] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[23/Feb/2022 01:47:07] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[23/Feb/2022 01:47:16] "GET /admin/ HTTP/1.1" 200 3330
+
