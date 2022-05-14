@@ -1,0 +1,992 @@
+Last login: Sat May 14 13:46:34 on ttys000
+anthonypaolantonio@Anthonys-MBP-4 ~ % brew install mosquitto
+Running `brew update --preinstall`...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+aarch64-elf-binutils       gst-plugins-rs             openjdk@17
+aarch64-elf-gcc            highs                      postgraphile
+acl                        httpyac                    powerman-dockerize
+age-plugin-yubikey         hut                        primecount
+ansible-language-server    ifacemaker                 procyon-decompiler
+arxiv_latex_cleaner        imposm3                    quick-lint-js
+autocannon                 inih                       quran
+aws-auth                   jdtls                      rospo
+bartib                     kmod                       rslint
+bkt                        koka                       sdl12-compat
+bvm                        kubekey                    shadowsocks-rust
+checkmake                  libapplewm                 sophus
+cloudflare-quiche          libcython                  spidermonkey@78
+cloudflared                libmarpa                   spirv-headers
+compiledb                  libtpms                    sqls
+cpi                        libxcrypt                  sse2neon
+criterion                  libxcvt                    stanc3
+dagger                     libxfont2                  stylish-haskell
+ddcutil                    litani                     testkube
+ddh                        localtunnel                tradcpp
+difftastic                 ltex-ls                    trivy
+dpp                        mapproxy                   trzsz
+dsq                        mariadb@10.6               tygo
+dynaconf                   mbt                        ugit
+easeprobe                  mbw                        uutils-findutils
+ecflow-ui                  melody                     vcluster
+epinio                     micro_inetd                virt-manager
+fclones                    minimap2                   vsce
+flyctl                     mkfontscale                wasm-tools
+fortran-language-server    mongodb-atlas-cli          wb32-dfu-updater_cli
+fourmolu                   monika                     werf
+freebayes                  mu-repo                    wordle
+gemgen                     nickel                     xkbcomp
+gi-docgen                  nvchecker                  xkcd
+go@1.17                    observerward
+gops                       opendht
+==> Updated Formulae
+Updated 2679 formulae.
+==> Renamed Formulae
+richmd -> rich-cli
+==> Deleted Formulae
+szip ✔                     boost-python               komposition
+advancemenu                griffon                    mozilla-addon-sdk
+autopano-sift-c            gstreamermm                pdflib-lite
+==> New Casks
+abbyy-finereader-pdf
+accord
+aethersx2
+alpha
+anypointstudio
+audiorelay
+avifquicklook
+banana-cake-pop
+bettermouse
+cnkiexpress
+dcp-o-matic-combiner
+dcp-o-matic-disk-writer
+dcp-o-matic-playlist-editor
+descript
+detail
+eliot
+espanso
+ferdium
+flycast
+fmail2
+free-gpgmail
+gcc-aarch64-embedded
+gdevelop
+groestlcoin-core
+hepta
+iptvnator
+irpf2022
+jetbrains-gateway
+jquake
+kdenlive
+keysafe
+lapce
+libcblite
+libcblite-community
+macast
+manila
+manymc
+mediahuman-audio-converter
+medis
+mellel
+miln-movie-splitter
+miniwol
+mixed-in-key-live
+mp3tag
+mx-power-gadget
+neovide
+nitro-pdf-pro
+nym-wallet
+osp-tracker
+osu
+oxwu
+paddle-easydl
+paragon-camptune
+pingnoo
+playdate-simulator
+plus42-binary
+plus42-decimal
+podman-desktop
+poker-copilot
+polymc
+postman-agent
+protokol
+prowlarr
+readyapi
+roonbridge
+rwts-pdfwriter
+simplemind
+supernotes
+ti-smartview-ce-for-the-ti-84-plus-family
+todesk
+tomatobar
+unicopedia-plus
+vertcoin-core
+vieb
+vivid
+warp
+windterm
+wpsoffice-cn
+write
+xemu
+xiv-on-mac
+yandex-music-unofficial
+yattee
+==> Updated Casks
+Updated 1630 casks.
+==> Deleted Casks
+biopassfido                kite                       raiderio
+bitshares                  lego-digital-designer      red
+bootchamp                  macfusion                  sitebulb
+dusty                      multiscan-3b               srware-iron
+edenmath                   mxsrvs                     synergy
+eggplant                   now                        thought-train
+entropy                    optimal-layout             twitch
+finereader                 password-assistant         vin047-abgx360
+firestormos                pd-runner                  zoom-outlook-plugin
+flip4mac                   piskel
+flvcd-bigrats              profilemanager
+
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2022-
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:c0
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1o
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:630f15
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.44.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:6b121623b8a2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libwebsockets/manifests/4.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:d410
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mosquitto/manifests/2.0.14
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:0e314cf5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Installing dependencies for mosquitto: ca-certificates, openssl@1.1, libuv and libwebsockets
+==> Installing mosquitto dependency: ca-certificates
+==> Pouring ca-certificates--2022-04-26.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2022-04-26: 3 files, 215.6KB
+==> Installing mosquitto dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1o.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1o: 8,089 files, 18.5MB
+==> Installing mosquitto dependency: libuv
+==> Pouring libuv--1.44.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libuv/1.44.1_1: 49 files, 3.5MB
+==> Installing mosquitto dependency: libwebsockets
+==> Pouring libwebsockets--4.3.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libwebsockets/4.3.1: 115 files, 2.3MB
+==> Installing mosquitto
+==> Pouring mosquitto--2.0.14.monterey.bottle.tar.gz
+==> Caveats
+mosquitto has been installed with a default configuration file.
+You can make changes to the configuration by editing:
+    /usr/local/etc/mosquitto/mosquitto.conf
+
+To restart mosquitto after an upgrade:
+  brew services restart mosquitto
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+==> Summary
+🍺  /usr/local/Cellar/mosquitto/2.0.14: 43 files, 1.6MB
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/aom--3.2.0_2... (4.4MB)
+Removing: /usr/local/Cellar/bdw-gc/8.0.4_2... (69 files, 1.5MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/bdw-gc--8.0.4_2.mojave.bottle.tar.gz... (512.5KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/boost--1.76.0... (87.8MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/c-ares--1.17.1.mojave.bottle.tar.gz... (160.6KB)
+Removing: /usr/local/Cellar/ca-certificates/2022-02-01... (3 files, 213.4KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/ca-certificates--2022-02-01... (120.8KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/ceres-solver--2.0.0_4... (10MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/cmake--3.22.2... (15MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/eigen--3.3.9... (1.1MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/emacs--27.2... (44.6MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/ffmpeg@4--4.4.1... (19.0MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/flac--1.3.3... (639.2KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/fontconfig--2.13.1... (1.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/freetype--2.11.1... (891.5KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/frei0r--1.7.0... (475.5KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/fribidi--1.0.11... (94KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gcc--11.2.0_3... (135.5MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gcc--10.2.0_4... (100.8MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gettext--0.21.mojave.bottle.tar.gz... (8.6MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/glib--2.70.4... (6.3MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/glog--0.5.0... (91.8KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/glog--0.4.0... (77.7KB)
+Removing: /usr/local/Cellar/gmp/6.2.1... (21 files, 3.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gmp--6.2.1.mojave.bottle.tar.gz... (1MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gnutls--3.7.3... (3MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gnutls--3.6.15.mojave.bottle.tar.gz... (3.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/gobject-introspection--1.70.0_3... (1.8MB)
+Removing: /usr/local/Cellar/guile/3.0.5... (834 files, 56.7MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/guile--3.0.5.mojave.bottle.tar.gz... (11.6MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/harfbuzz--3.4.0... (2.3MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/hdf5--1.12.1... (6.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/icu4c--69.1... (27.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/imath--3.1.4... (181.3KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/isl--0.23... (1.5MB)
+Removing: /usr/local/Cellar/jansson/2.13.1... (11 files, 163.1KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/jansson--2.13.1.mojave.bottle.tar.gz... (62.1KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/jemalloc--5.2.1_1.mojave.bottle.tar.gz... (617.5KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libarchive--3.5.2... (1.5MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libbluray--1.3.0... (316.0KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libev--4.33.mojave.bottle.tar.gz... (144.9KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libevent--2.1.12.mojave.bottle.tar.gz... (681KB)
+Removing: /usr/local/Cellar/libffi/3.3_2... (17 files, 503.9KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libffi--3.3_2.mojave.bottle.tar.gz... (166KB)
+Removing: /usr/local/Cellar/libidn2/2.3.0... (70 files, 719.7KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libidn2--2.3.0.mojave.bottle.tar.gz... (233.3KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libnghttp2--1.46.0... (199.6KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/librist--0.2.6_1... (217.9KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libsndfile--1.0.31... (583.7KB)
+Removing: /usr/local/Cellar/libtasn1/4.16.0_1... (60 files, 388.7KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libtasn1--4.16.0_1.mojave.bottle.tar.gz... (122.3KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libtool--2.4.6_4... (1004.8KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libtool--2.4.6_2.mojave.bottle.tar.gz... (1010.6KB)
+Removing: /usr/local/Cellar/libunistring/0.9.10... (54 files, 4.4MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libunistring--0.9.10.mojave.bottle.tar.gz... (1.4MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libvmaf--2.3.0_1... (1.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/libx11--1.7.3.1... (2.1MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/little-cms2--2.13... (406.2KB)
+Removing: /usr/local/Cellar/nettle/3.7.1... (89 files, 2.4MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/nettle--3.7.1.mojave.bottle.tar.gz... (921.9KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/nghttp2--1.43.0.mojave.bottle.tar.gz... (959KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/numpy--1.22.2... (5.4MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/openblas--0.3.13... (18.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/openblas--0.3.19... (20MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/opencv--4.5.4_4... (82.0MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/openexr--3.1.4... (1.4MB)
+Removing: /usr/local/Cellar/openssl@1.1/1.1.1j... (8,071 files, 18.4MB)
+Removing: /usr/local/Cellar/openssl@1.1/1.1.1m... (8,081 files, 18.5MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/openssl@1.1--1.1.1m... (5.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/openssl@1.1--1.1.1j.mojave.bottle.tar.gz... (5.4MB)
+Removing: /usr/local/Cellar/p11-kit/0.23.22... (63 files, 2.9MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/p11-kit--0.23.22.mojave.bottle.tar.gz... (709.4KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/pkg-config--0.29.2_3.mojave.bottle.tar.gz... (234.2KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/pugixml--1.12... (82.3KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/python@3.9--3.9.10... (13.8MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/qt@5--5.15.2_1... (130.7MB)
+Removing: /usr/local/Cellar/readline/8.1... (48 files, 1.6MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/readline--8.1.mojave.bottle.tar.gz... (535.6KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/sdl2--2.0.20... (1.5MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/sqlite--3.37.2... (2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/suite-sparse--5.10.1_1... (28.0MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/tesseract--5.0.1... (11.9MB)
+Removing: /usr/local/Cellar/unbound/1.13.1... (57 files, 5.2MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/unbound--1.13.1.mojave.bottle.tar.gz... (2.6MB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/xorgproto--2021.5... (695.5KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/zimg--3.0.3... (687.6KB)
+Removing: /Users/anthonypaolantonio/Library/Caches/Homebrew/portable-ruby-2.6.3_2.yosemite.bottle.tar.gz... (9.1MB)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/rubberband... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/cjson... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/ceres-solver... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/lame... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/pkg-config... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libtiff... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libtool... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/jansson... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gmp... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/xorgproto... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libidn2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/xvid... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/nghttp2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libxau... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/little-cms2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libpng... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/frei0r... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/jsoncpp... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/nettle... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/pixman... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/pyqt@5... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gdbm... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/mpdecimal... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libxdmcp... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/cmake... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/qt@5... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/opus... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/freetype... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/mpfr... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/hdf5... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/imath... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/cmocka... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libsamplerate... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libvorbis... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/boost... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libunistring... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/openjpeg... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/zimg... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/jemalloc... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/brotli... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/bdw-gc... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/speex... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libogg... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/icu4c... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/zeromq... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/harfbuzz... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libbluray... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libxcb... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/metis... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/readline... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/glog... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/aom... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/mbedtls... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/lz4... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/tbb... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/graphite2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libarchive... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gcc... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/srt... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/tesseract... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/cairo... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/webp... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/sqlite... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/c-ares... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gobject-introspection... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/fribidi... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/eigen... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libpthread-stubs... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/xz... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/numpy... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libnghttp2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/emacs... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/utf8cpp... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/openexr... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/fontconfig... (1KB)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/double-conversion... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gflags... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/openblas... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/giflib... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/opencv... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libvpx... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libxrender... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/librist... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libb2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/snappy... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/flac... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/vtk... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libvmaf... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/zstd... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libsodium... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/dav1d... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/opencore-amr... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/rav1e... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libxext... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/m4... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/netcdf... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libtasn1... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/suite-sparse... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/isl... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/glew... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/ffmpeg@4... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libevent... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/openssl@1.1... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/leptonica... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/pcre... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/x264... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/jpeg-xl... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/pugixml... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libvidstab... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/six... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/x265... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libsoxr... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/jpeg... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/theora... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/sdl2... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libass... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/szip... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/guile... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gl2ps... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libsndfile... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/p11-kit... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libev... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libx11... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/protobuf... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/lzo... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libffi... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/python@3.9... (2 files, 2.6KB)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/libmpc... (64B)
+Removing: /Users/anthonypaolantonio/Library/Logs/Homebrew/gnutls... (64B)
+Pruned 1 symbolic links and 4 directories from /usr/local
+==> Upgrading 12 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ceres-solver 2.0.0_4 -> 2.1.0_1, glib 2.70.4 -> 2.72.1, gnutls 3.7.3 -> 3.7.4, emacs 27.2 -> 28.1, gobject-introspection 1.70.0_3 -> 1.72.0, harfbuzz 3.4.0 -> 4.2.1, ffmpeg@4 4.4.1 -> 4.4.2, numpy 1.22.2 -> 1.22.3_1, opencv 4.5.4_4 -> 4.5.5_2, python@3.9 3.9.10 -> 3.9.12_1, tbb 2021.5.0 -> 2021.5.0_1, vtk 9.1.0_1 -> 9.1.0_4
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/manifests/2.4.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/blobs/sha256:33bf837925
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.47.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:71cc16d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.7.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:1fb816706b9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.38.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:93880cd7f15
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.9/manifests/3.9.12_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:2b89028
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.72.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:9886303982a66
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.12.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3424dbc7b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.14.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:6bd89f4
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xorgproto/manifests/2022.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xorgproto/blobs/sha256:59bc0ef6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libx11/manifests/1.8
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:35e68160d23
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gobject-introspection/manifests
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/70.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:321592eb1aeb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/4.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:5bdd586ce
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:60265951d4de
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.1.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:7b5eac70a2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/manifests/2.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/blobs/sha256:a30aaf6bd5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.3.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:0a522c17ca7a10
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/manifests/1.8.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/blobs/sha256:27768088554
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fribidi/manifests/1.0.12
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fribidi/blobs/sha256:9bf3206533
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libbluray/manifests/1.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libbluray/blobs/sha256:8f2c34dd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/blobs/sha256:459881be00
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.13.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:0c5058
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/flac/manifests/1.3.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/flac/blobs/sha256:cf8ac3c315054
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libsndfile/manifests/1.1.0-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:ac4657b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/manifests/2.0.22
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/blobs/sha256:eac3c4de97e45
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/manifests/3.6.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:652e949
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/manifests/5.1.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/blobs/sha256:8e95648b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zimg/manifests/3.0.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:67e43a8f648f6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/4/manifests/4.4.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/4/blobs/sha256:7729109ef
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/emacs/manifests/28.1-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/emacs/blobs/sha256:c258d8cb6b85
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/manifests/11.3.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/blobs/sha256:f6c3877abd04bb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openblas/manifests/0.3.20
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openblas/blobs/sha256:64e8434a8
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/numpy/manifests/1.22.3_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/numpy/blobs/sha256:78446dd95fdf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tbb/manifests/2021.5.0_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tbb/blobs/sha256:8323879a2adfcf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glog/manifests/0.6.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glog/blobs/sha256:04b418eda3d80
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/suite-sparse/manifests/5.12.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/suite-sparse/blobs/sha256:f258f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ceres-solver/manifests/2.1.0_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:ab39d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/boost/manifests/1.78.0_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/boost/blobs/sha256:d49eb4eb19d2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libaec/manifests/1.0.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libaec/blobs/sha256:2d40180340f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/hdf5/manifests/1.12.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:42715c0074ee5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/netcdf/manifests/4.8.1_2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/netcdf/blobs/sha256:d196d30c8c3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pugixml/manifests/1.12.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pugixml/blobs/sha256:9a053f8669
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/qt/5/manifests/5.15.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/qt/5/blobs/sha256:c5b6845eaf185
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/vtk/manifests/9.1.0_4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/vtk/blobs/sha256:58ba5d2739518e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/opencv/manifests/4.5.5_2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:e8a0ae9ac95
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Upgrading gnutls
+  3.7.3 -> 3.7.4 
+
+==> Installing dependencies for gnutls: libtool and libnghttp2
+==> Installing gnutls dependency: libtool
+==> Pouring libtool--2.4.7.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libtool/2.4.7: 75 files, 3.8MB
+==> Installing gnutls dependency: libnghttp2
+==> Pouring libnghttp2--1.47.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.47.0: 13 files, 678.2KB
+==> Installing gnutls
+==> Pouring gnutls--3.7.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gnutls/3.7.4: 1,284 files, 11.0MB
+==> Running `brew cleanup gnutls`...
+Removing: /usr/local/Cellar/gnutls/3.6.15... (1,250 files, 10.7MB)
+Removing: /usr/local/Cellar/gnutls/3.7.3... (1,280 files, 10.9MB)
+==> Upgrading python@3.9
+  3.9.10 -> 3.9.12_1 
+
+==> Installing dependencies for python@3.9: sqlite
+==> Installing python@3.9 dependency: sqlite
+==> Pouring sqlite--3.38.5.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/sqlite/3.38.5: 11 files, 4.4MB
+==> Installing python@3.9
+==> Pouring python@3.9--3.9.12_1.monterey.bottle.tar.gz
+==> /usr/local/Cellar/python@3.9/3.9.12_1/bin/python3 -m ensurepip
+==> /usr/local/Cellar/python@3.9/3.9.12_1/bin/python3 -m pip install -v --no-dep
+Last 15 lines from /Users/anthonypaolantonio/Library/Logs/Homebrew/python@3.9/post_install.02.python3:
+  File "/usr/local/lib/python3.9/site-packages/pip/_internal/cli/base_command.py", line 167, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/usr/local/lib/python3.9/site-packages/pip/_internal/cli/req_command.py", line 205, in wrapper
+    return func(self, options, args)
+  File "/usr/local/lib/python3.9/site-packages/pip/_internal/commands/install.py", line 464, in run
+    self._handle_target_dir(
+  File "/usr/local/lib/python3.9/site-packages/pip/_internal/commands/install.py", line 519, in _handle_target_dir
+    shutil.rmtree(target_item_dir)
+  File "/usr/local/Cellar/python@3.9/3.9.12_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/shutil.py", line 732, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/usr/local/Cellar/python@3.9/3.9.12_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/usr/local/Cellar/python@3.9/3.9.12_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/shutil.py", line 686, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+PermissionError: [Errno 13] Permission denied: '_path.py'
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall python@3.9
+==> Summary
+🍺  /usr/local/Cellar/python@3.9/3.9.12_1: 3,082 files, 55.5MB
+==> Running `brew cleanup python@3.9`...
+Removing: /usr/local/Cellar/python@3.9/3.9.10... (3,200 files, 55.7MB)
+==> Upgrading glib
+  2.70.4 -> 2.72.1 
+
+==> Pouring glib--2.72.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/glib/2.72.1: 449 files, 20.5MB
+==> Running `brew cleanup glib`...
+Removing: /usr/local/Cellar/glib/2.70.4... (444 files, 21.1MB)
+==> Upgrading gobject-introspection
+  1.70.0_3 -> 1.72.0 
+
+==> Installing dependencies for gobject-introspection: freetype, fontconfig, xorgproto and libx11
+==> Installing gobject-introspection dependency: freetype
+==> Pouring freetype--2.12.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/freetype/2.12.0: 67 files, 2.3MB
+==> Installing gobject-introspection dependency: fontconfig
+==> Pouring fontconfig--2.14.0.monterey.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /usr/local/Cellar/fontconfig/2.14.0/bin/fc-cache -frv
+🍺  /usr/local/Cellar/fontconfig/2.14.0: 84 files, 2.3MB
+==> Installing gobject-introspection dependency: xorgproto
+==> Pouring xorgproto--2022.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/xorgproto/2022.1: 264 files, 3.9MB
+==> Installing gobject-introspection dependency: libx11
+==> Pouring libx11--1.8.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libx11/1.8: 1,055 files, 7.0MB
+==> Installing gobject-introspection
+==> Pouring gobject-introspection--1.72.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gobject-introspection/1.72.0: 193 files, 13.0MB
+==> Running `brew cleanup gobject-introspection`...
+Removing: /usr/local/Cellar/gobject-introspection/1.70.0_3... (191 files, 13.0MB)
+==> Upgrading harfbuzz
+  3.4.0 -> 4.2.1 
+
+==> Installing dependencies for harfbuzz: icu4c
+==> Installing harfbuzz dependency: icu4c
+==> Pouring icu4c--70.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/70.1: 261 files, 74.4MB
+==> Installing harfbuzz
+==> Pouring harfbuzz--4.2.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/harfbuzz/4.2.1: 68 files, 7.7MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /usr/local/Cellar/harfbuzz/3.4.0... (68 files, 7.6MB)
+==> Upgrading ffmpeg@4
+  4.4.1 -> 4.4.2 
+
+==> Installing dependencies for ffmpeg@4: imath, openexr, libvmaf, aom, frei0r, fribidi, libbluray, librist, little-cms2, flac, libsndfile, sdl2, libarchive, tesseract and zimg
+==> Installing ffmpeg@4 dependency: imath
+==> Pouring imath--3.1.5.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/imath/3.1.5: 49 files, 924.7KB
+==> Installing ffmpeg@4 dependency: openexr
+==> Pouring openexr--3.1.5.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openexr/3.1.5: 194 files, 5.9MB
+==> Installing ffmpeg@4 dependency: libvmaf
+==> Pouring libvmaf--2.3.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libvmaf/2.3.1: 234 files, 7.1MB
+==> Installing ffmpeg@4 dependency: aom
+==> Pouring aom--3.3.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/aom/3.3.0: 23 files, 13.4MB
+==> Installing ffmpeg@4 dependency: frei0r
+==> Pouring frei0r--1.8.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/frei0r/1.8.0: 127 files, 4.4MB
+==> Installing ffmpeg@4 dependency: fribidi
+==> Pouring fribidi--1.0.12.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/fribidi/1.0.12: 67 files, 625.7KB
+==> Installing ffmpeg@4 dependency: libbluray
+==> Pouring libbluray--1.3.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libbluray/1.3.1: 21 files, 941.4KB
+==> Installing ffmpeg@4 dependency: librist
+==> Pouring librist--0.2.7.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/librist/0.2.7: 28 files, 702.8KB
+==> Installing ffmpeg@4 dependency: little-cms2
+==> Pouring little-cms2--2.13.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/little-cms2/2.13.1: 21 files, 1.3MB
+==> Installing ffmpeg@4 dependency: flac
+==> Pouring flac--1.3.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/flac/1.3.4: 57 files, 2.6MB
+==> Installing ffmpeg@4 dependency: libsndfile
+==> Pouring libsndfile--1.1.0.monterey.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libsndfile/1.1.0: 48 files, 1.2MB
+==> Installing ffmpeg@4 dependency: sdl2
+==> Pouring sdl2--2.0.22.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/sdl2/2.0.22: 92 files, 5.7MB
+==> Installing ffmpeg@4 dependency: libarchive
+==> Pouring libarchive--3.6.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/libarchive/3.6.1: 62 files, 3.6MB
+==> Installing ffmpeg@4 dependency: tesseract
+==> Pouring tesseract--5.1.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/tesseract/5.1.0: 58 files, 30MB
+==> Installing ffmpeg@4 dependency: zimg
+==> Pouring zimg--3.0.4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/zimg/3.0.4: 27 files, 2.2MB
+==> Installing ffmpeg@4
+==> Pouring ffmpeg@4--4.4.2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/ffmpeg@4/4.4.2: 276 files, 50.9MB
+==> Running `brew cleanup ffmpeg@4`...
+Removing: /usr/local/Cellar/ffmpeg@4/4.4.1... (276 files, 51.0MB)
+==> Upgrading emacs
+  27.2 -> 28.1 
+
+==> Pouring emacs--28.1.monterey.bottle.1.tar.gz
+==> Caveats
+To restart emacs after an upgrade:
+  brew services restart emacs
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/emacs/bin/emacs --fg-daemon
+==> Summary
+🍺  /usr/local/Cellar/emacs/28.1: 4,095 files, 110.3MB
+==> Running `brew cleanup emacs`...
+Removing: /usr/local/Cellar/emacs/27.2... (4,012 files, 104.3MB)
+==> Upgrading numpy
+  1.22.2 -> 1.22.3_1 
+
+==> Installing dependencies for numpy: gcc and openblas
+==> Installing numpy dependency: gcc
+==> Pouring gcc--11.3.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gcc/11.3.0: 2,162 files, 460.5MB
+==> Installing numpy dependency: openblas
+==> Pouring openblas--0.3.20.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openblas/0.3.20: 23 files, 128.6MB
+==> Installing numpy
+==> Pouring numpy--1.22.3_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/numpy/1.22.3_1: 1,632 files, 43.6MB
+==> Running `brew cleanup numpy`...
+Removing: /usr/local/Cellar/numpy/1.22.2... (817 files, 21.8MB)
+==> Upgrading tbb
+  2021.5.0 -> 2021.5.0_1 
+
+==> Pouring tbb--2021.5.0_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/tbb/2021.5.0_1: 187 files, 2.8MB
+==> Running `brew cleanup tbb`...
+Removing: /usr/local/Cellar/tbb/2021.5.0... (185 files, 2MB)
+==> Upgrading ceres-solver
+  2.0.0_4 -> 2.1.0_1 
+
+==> Installing dependencies for ceres-solver: glog and suite-sparse
+==> Installing ceres-solver dependency: glog
+==> Pouring glog--0.6.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/glog/0.6.0: 22 files, 315.7KB
+==> Installing ceres-solver dependency: suite-sparse
+==> Pouring suite-sparse--5.12.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/suite-sparse/5.12.0: 163 files, 84.9MB
+==> Installing ceres-solver
+==> Pouring ceres-solver--2.1.0_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/ceres-solver/2.1.0_1: 166 files, 8.8MB
+==> Running `brew cleanup ceres-solver`...
+Removing: /usr/local/Cellar/ceres-solver/2.0.0_4... (263 files, 20.5MB)
+==> Upgrading vtk
+  9.1.0_1 -> 9.1.0_4 
+
+==> Installing dependencies for vtk: boost, libaec, hdf5, netcdf, pugixml and qt@5
+==> Installing vtk dependency: boost
+==> Pouring boost--1.78.0_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/boost/1.78.0_1: 15,400 files, 463MB
+==> Installing vtk dependency: libaec
+==> Pouring libaec--1.0.6.monterey.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/usr/local/include/szlib.h
+/usr/local/lib/libsz.2.dylib
+/usr/local/lib/libsz.a
+/usr/local/lib/libsz.dylib
+
+They have been backed up to: /Users/anthonypaolantonio/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /usr/local/Cellar/libaec/1.0.6: 20 files, 247.1KB
+==> Installing vtk dependency: hdf5
+==> Pouring hdf5--1.12.2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/hdf5/1.12.2: 273 files, 18.1MB
+==> Installing vtk dependency: netcdf
+==> Pouring netcdf--4.8.1_2.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/netcdf/4.8.1_2: 89 files, 6.3MB
+==> Installing vtk dependency: pugixml
+==> Pouring pugixml--1.12.1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/pugixml/1.12.1: 12 files, 268.5KB
+==> Installing vtk dependency: qt@5
+==> Pouring qt@5--5.15.3.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/qt@5/5.15.3: 10,873 files, 389.9MB
+==> Installing vtk
+==> Pouring vtk--9.1.0_4.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/vtk/9.1.0_4: 3,807 files, 154.3MB
+==> Running `brew cleanup vtk`...
+Removing: /usr/local/Cellar/vtk/9.1.0_1... (3,807 files, 157.7MB)
+==> Upgrading opencv
+  4.5.4_4 -> 4.5.5_2 
+
+==> Pouring opencv--4.5.5_2.monterey.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink lib/python3.9/site-packages/cv2/__init__.py
+Target /usr/local/lib/python3.9/site-packages/cv2/__init__.py
+already exists. You may want to remove it:
+  rm '/usr/local/lib/python3.9/site-packages/cv2/__init__.py'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite opencv
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run opencv
+
+Possible conflicting files are:
+/usr/local/lib/python3.9/site-packages/cv2/__init__.py
+/usr/local/lib/python3.9/site-packages/cv2/config.py
+/usr/local/lib/python3.9/site-packages/cv2/gapi/__init__.py
+/usr/local/lib/python3.9/site-packages/cv2/load_config_py2.py
+/usr/local/lib/python3.9/site-packages/cv2/load_config_py3.py
+/usr/local/lib/python3.9/site-packages/cv2/mat_wrapper/__init__.py
+/usr/local/lib/python3.9/site-packages/cv2/misc/__init__.py
+/usr/local/lib/python3.9/site-packages/cv2/misc/version.py
+/usr/local/lib/python3.9/site-packages/cv2/utils/__init__.py
+==> Summary
+🍺  /usr/local/Cellar/opencv/4.5.5_2: 861 files, 237.0MB
+==> Running `brew cleanup opencv`...
+Removing: /usr/local/Cellar/opencv/4.5.4_4... (852 files, 237.5MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> Caveats
+==> mosquitto
+mosquitto has been installed with a default configuration file.
+You can make changes to the configuration by editing:
+    /usr/local/etc/mosquitto/mosquitto.conf
+
+To restart mosquitto after an upgrade:
+  brew services restart mosquitto
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+==> emacs
+To restart emacs after an upgrade:
+  brew services restart emacs
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/emacs/bin/emacs --fg-daemon
+anthonypaolantonio@Anthonys-MBP-4 ~ % brew services start mosquitto
+==> Tapping homebrew/services
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services'...
+remote: Enumerating objects: 2000, done.
+remote: Counting objects: 100% (509/509), done.
+remote: Compressing objects: 100% (176/176), done.
+remote: Total 2000 (delta 348), reused 441 (delta 325), pack-reused 1491
+Receiving objects: 100% (2000/2000), 548.53 KiB | 9.79 MiB/s, done.
+Resolving deltas: 100% (903/903), done.
+Tapped 1 command (45 files, 700.5KB).
+==> Successfully started `mosquitto` (label: homebrew.mxcl.mosquitto)
+anthonypaolantonio@Anthonys-MBP-4 ~ % mosquitto_sub -h localhost -v -t test/topic &
+[1] 17516
+anthonypaolantonio@Anthonys-MBP-4 ~ % mosquitto_pub -h localhost -t test/topic -m "Hello"
+test/topic Hello
+anthonypaolantonio@Anthonys-MBP-4 ~ % sudo pip3 install -U paho-mqtt
+Password:
+WARNING: The directory '/Users/anthonypaolantonio/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting paho-mqtt
+  Downloading paho-mqtt-1.6.1.tar.gz (99 kB)
+     |████████████████████████████████| 99 kB 11.0 MB/s 
+Building wheels for collected packages: paho-mqtt
+  Building wheel for paho-mqtt (setup.py) ... done
+  Created wheel for paho-mqtt: filename=paho_mqtt-1.6.1-py3-none-any.whl size=62116 sha256=c309c6b48ca513c1e7b1ba06c560ee854def4165a1c2f3d0bc45c024f2cf14a2
+  Stored in directory: /private/tmp/pip-ephem-wheel-cache-if62gu9s/wheels/6a/48/01/c895c027e9b9367ec5470fbf371ee56e795a49ac6a19aa4c9f
+Successfully built paho-mqtt
+Installing collected packages: paho-mqtt
+Successfully installed paho-mqtt-1.6.1
+WARNING: You are using pip version 20.2.3; however, version 22.1 is available.
+You should consider upgrading via the '/Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install --upgrade pip' command.
+anthonypaolantonio@Anthonys-MBP-4 ~ % git clone https://github.com/eclipse/paho.mqtt.python.git
+Cloning into 'paho.mqtt.python'...
+remote: Enumerating objects: 4491, done.
+remote: Counting objects: 100% (929/929), done.
+remote: Compressing objects: 100% (334/334), done.
+remote: Total 4491 (delta 556), reused 856 (delta 525), pack-reused 3562
+Receiving objects: 100% (4491/4491), 1.31 MiB | 5.53 MiB/s, done.
+Resolving deltas: 100% (2404/2404), done.
+anthonypaolantonio@Anthonys-MBP-4 ~ % cd ~/iot/lesson5
+anthonypaolantonio@Anthonys-MBP-4 lesson5 % python3 client.py
+Traceback (most recent call last):
+  File "/Users/anthonypaolantonio/iot/lesson5/client.py", line 1, in <module>
+    import paho.mqtt.client as mqtt
+ModuleNotFoundError: No module named 'paho'
+anthonypaolantonio@Anthonys-MBP-4 lesson5 % python3 sub.py
+Traceback (most recent call last):
+  File "/Users/anthonypaolantonio/iot/lesson5/sub.py", line 1, in <module>
+    import paho.mqtt.client as mqtt
+ModuleNotFoundError: No module named 'paho'
+anthonypaolantonio@Anthonys-MBP-4 lesson5 % $ python3 sub-multiple.py
+zsh: command not found: $
+anthonypaolantonio@Anthonys-MBP-4 lesson5 % python3 sub-multiple.py
+Traceback (most recent call last):
+  File "/Users/anthonypaolantonio/iot/lesson5/sub-multiple.py", line 1, in <module>
+    import paho.mqtt.client as mqtt
+ModuleNotFoundError: No module named 'paho'
+anthonypaolantonio@Anthonys-MBP-4 lesson5 % cd ~/demo
+anthonypaolantonio@Anthonys-MBP-4 demo % cp ~/iot/lesson5/subraspi.py .
+anthonypaolantonio@Anthonys-MBP-4 demo % nano subraspi.py
